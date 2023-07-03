@@ -39,15 +39,18 @@ nav ul {
     font-size: 24px;
 }
 
+/* Makes all hyperlink text color white and removes underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the default font size for paragraphs to 16px */
 p {
     font-size: 16px;
 }
 
+/* Styles a hero image or video to take up the full viewport and centers the content within it. Adds a margin at the bottom. */
 #hero {
     height: 100%;
     width: 100%;
@@ -56,22 +59,26 @@ p {
     object-position: center;
 }
 
-
+/* Floats elements to the left and adds a right margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floats elements to the right and adds a left margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Gives the content a specific width, displays it as inline-block and adds a left margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Styles the content section with margin, padding, height, font, background color, and text color */
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -81,15 +88,18 @@ p {
     color: #ffffff;
 }
 
+/* Limits the maximum height of images inside the content section */
 .content-section img {
     max-height: 200px;
 }
 
+/* Styles the h2 heading inside the content section with a margin at the bottom and a specific font size */
 .content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Styles the benefits section with margin, padding, float right, width, height, font, and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,24 +111,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Styles the benefit category with a bottom margin and white text color */
 .benefit-category {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styles the h3 heading inside the benefit category to be centered with a bottom margin */
 .benefit-category h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* Styles images in the benefit category with margin, display block, and maximum width */
 .benefit-category img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* Styles the footer with padding, clears the float, sets a specific font, centers text, and specifies the font size */
 .footer {
     padding: 30px;
     clear: both;
